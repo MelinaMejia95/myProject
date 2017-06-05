@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  title = 'Little Monster';
+  author = 'Melina Mejía';
+  count = 0;
+  imgSource = './../favicon.ico';
+  enable = false;
 }

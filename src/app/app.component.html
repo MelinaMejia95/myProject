@@ -1,3 +1,14 @@
-<h1>
-  {{title}}
-</h1>
+<img [src]="imgSource">
+
+<app-my-component></app-my-component>
+
+<button (click)="count = count + 1" >Click me</button>
+
+<h3>Count: {{count}}</h3>
+
+<button (click)= "enable = !enable" >Disable button</button>
+<input type="text" name="name" placeholder="Enter your name" [disabled]="enable">
+
+
+
+
